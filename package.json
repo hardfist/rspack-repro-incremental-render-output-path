@@ -2,10 +2,12 @@
   "name": "rspack-repro-incremental-render-output-path",
   "private": true,
   "scripts": {
+    "dev": "node repro.js --manual",
+    "dev:watch": "rspack build --watch",
     "test": "node repro.js"
   },
   "devDependencies": {
+    "@rspack/cli": "2.1.4",
     "@rspack/core": "2.1.4"
   }
 }
-
